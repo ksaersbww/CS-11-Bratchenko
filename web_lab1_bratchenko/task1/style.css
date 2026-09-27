@@ -1,0 +1,88 @@
+
+body{
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    height: 100vh;
+    max-height: 900px;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.table{
+    display: grid;
+    grid-template-columns: repeat(18, 60px);
+    grid-template-rows: repeat(10, 60px);
+    justify-content: center;
+    column-gap: 6px;
+    row-gap: 6px;
+    margin: auto;
+}
+.element{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    padding: 2px;
+    color: #ffffff;
+}
+.element .number{
+    align-self:start;
+    font-size: 6px;
+
+}
+
+ .element .symbol{
+    font-weight: bold;
+    font-size: 20px;
+    
+    
+    
+}  
+    
+.element .name{
+   font-size: 7px;
+   padding: 4px;
+   
+    
+}
+.element.orange{
+    background-color: #ce5a25;
+}
+.element.yellow{
+    background-color: #e7b016;
+   
+}
+.element.blue{
+    background-color: #1E52C4;
+}
+.element.green{
+    background-color: #50852F;
+}
+.element.purple{
+    background-color: #6039D1;
+}
+.element.red{
+    background-color: #E11E32;
+}
+.element.grey{
+    background-color: #7C848A;
+}
+.element.lightblue{
+    background-color: #448EF7;
+}
+.element.lightgreen{
+    background-color: #9FB92A;
+}
+.element.pink{
+    background-color: #FD567A;
+}
+.element.emerald{
+    background-color: #09A89B;
+}
