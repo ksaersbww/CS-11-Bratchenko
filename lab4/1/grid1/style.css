@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+.table{
+  display: grid;
+  grid-template-columns: 420px 210px 420px;
+  grid-template-rows:repeat(3);
+  gap:  20px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin-top: 80px;
+}
+.photo, .photo2, .photo3{
+  grid-column: 2;
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  object-fit: cover;
+  justify-self: center;
+}
+.photo{ grid-row: 1; }
+.photo2{ grid-row: 2; }
+.photo3{ grid-row: 3; }
+
+.card, .card2, .card3{
+  display: grid;
+  align-content: center;
+  justify-items: start;
+  background: #f1f1f1;
+  border-radius: 35px;
+  padding: 30px;
+  box-sizing: border-box;
+  height: 260px;
+}
+.card { grid-column: 3; grid-row: 1; }
+.card2{ grid-column: 1; grid-row: 2; 
+text-align: right;
+justify-items: end; }
+.card3{ grid-column: 3; grid-row: 3; }
+
+h1{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+p{
+  font-size: 16px;
+  color: #888;
+  margin: 0 0 20px 0;
+  width: 300px;
+}
+
+.READ{
+  background: #22f155;
+  color: #000;
+  padding: 14px 28px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}

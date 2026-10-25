@@ -1,0 +1,90 @@
+body{
+  margin: 0;
+  padding: 40px 0;
+  background: #e5e5e5;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+h1{
+  margin: 42px;
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+  color: #111;
+}
+.sample{
+  margin: 0 0 30px;
+  font-size: 13px;
+  color: #111;
+}
+.table{
+  display: flex;
+  justify-content: center;
+}
+
+.left, .right{
+  display: flex;
+  flex-direction: column;
+  width: 456px;
+}
+.phtext, .phtext2{
+  display: flex;
+}
+.photo1{
+  width: 456px;
+  height: 334px;          
+}
+.photo3{
+  width: 228px;
+  height: 317px;
+}
+
+.years{
+  width: 228px;
+  height: 317px;
+  background: #f07f05;
+  color: #fff;
+}
+.comp{
+  width: 228px;
+  height: 274px;
+  background: #fff;
+}
+.photo2{
+  width: 228px;
+  height: 274px;
+}
+.photo4{
+  width: 456px;
+  height: 377px;        
+}
+.comp, .years{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.comp h2, .years h2{
+  margin: 0 0 37px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 87px;
+}
+.comp h2{
+  color: #f07f05;
+}
+.comp p, .years p{
+  margin:0;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  width: 150px;
+}
+.images{
+  margin: 20px 0 0;
+  font-size: 14px;
+}
+.images span{
+  text-decoration: underline;
+}
