@@ -1,0 +1,281 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+    align-items: start;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: #f8f2f7;
+}
+
+.task1 {
+    background: #ffe8f8;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task1 input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #b78eaf;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f3c6e6;
+}
+
+.task1 button {
+    padding: 10px 20px;
+    background: #c16a9d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.t1-result {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.task2 {
+    background: #ffe8f8;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task2 input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #b78eaf;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f3c6e6;
+}
+
+.task2 button {
+    padding: 10px 20px;
+    background: #c16a9d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.t2-result {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.task3 {
+    background: #ffe8f8;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task3 input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #b78eaf;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f3c6e6;
+}
+
+.task3 button {
+    padding: 10px 20px;
+    background: #c16a9d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.t3-result {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.task4 {
+    background: #ffe8f8;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task4 input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #b78eaf;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f3c6e6;
+}
+
+.task4 button {
+    padding: 10px 20px;
+    background: #c16a9d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.t4-result {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.task5 {
+    background: #ffe8f8;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task5 input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #b78eaf;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f3c6e6;
+}
+
+.task5 button {
+    padding: 10px 20px;
+    background: #c16a9d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.t5-result {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.task6 {
+    background: #ffe8f8;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task6 input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #b78eaf;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f3c6e6;
+}
+
+.task6 button {
+    padding: 10px 20px;
+    background: #c16a9d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.t6-result {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.task7 {
+    background: #ffe8f8;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task7 input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #b78eaf;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f3c6e6;
+}
+
+.task7 button {
+    padding: 10px 20px;
+    background: #c16a9d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.t7-result {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.task8 {
+    background: #ffe8f8;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task8 input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #b78eaf;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f3c6e6;
+}
+
+.task8 button {
+    padding: 10px 20px;
+    background: #c16a9d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.t8-result {
+    font-size: 18px;
+    font-weight: bold;
+}
