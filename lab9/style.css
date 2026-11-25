@@ -264,8 +264,8 @@ h1 em {
 
 @keyframes printed-text {
     /* TODO: add animation logic */
-    from{transform: translateY(+100%);}
-    to{transform: translateY(0%);}
+    from{height: 0;}
+    to{height: 1;}
 }
 
 .hero-bottom {
